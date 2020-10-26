@@ -8,6 +8,9 @@ h1 {
  h2, h3, h4, h5 {
    font-size: 1.4em;
  }
+ h2 {
+   text-align: center;
+ }
 
 .width-box {
   width: 95%;
@@ -22,16 +25,18 @@ header {
   color: white;
 }
 #header-top {
-  background-color: blue;
+  background-color: #212529;
 }
 #header-bottom {
-  background-color: green;
+  background-color: #11C2AB;
   text-align: center;
 }
 
 #header-list li {
   text-decoration: none;
   display: inline-block;
+  padding-left: 20px;
+  line-height: 50px;
 }
 
 .container {
@@ -66,6 +71,27 @@ header {
 #submarine {
   background-color: pink;
   height: 150px;
+}
+
+.border-radius {
+  border-radius: 5px;
+}
+
+#main-mid-box {
+  background-color: #11C2AB;
+}
+
+footer {
+  color: white;
+}
+#footer-top {
+  background-color: #2D3E50;
+  text-align: center;
+}
+#footer-bottom {
+  height: 50px;
+  background-color: #212529;
+  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
