@@ -39,10 +39,6 @@ header {
   line-height: 50px;
 }
 
-.container {
-  margin: 25px auto;
-}
-
 #house {
   background-color: purple;
   height: 150px;
