@@ -1,0 +1,54 @@
+
+.width-box {
+  width: 95%;
+  margin: auto;
+}
+.width-box-80 {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  color: white;
+}
+#header-top {
+  background-color: blue;
+}
+#header-bottom {
+  background-color: green;
+  text-align: center;
+}
+
+.container {
+  margin: 25px auto;
+}
+
+#house {
+  background-color: purple;
+  height: 150px;
+}
+
+#cake {
+  background-color: lightblue;
+  height: 150px;
+}
+
+#circus {
+  background-color: black;
+  height: 150px;
+}
+
+#joypad {
+  background-color: lightblue;
+  height: 150px;
+}
+
+#safe {
+  background-color: blue;
+  height: 150px;
+}
+
+#submarine {
+  background-color: pink;
+  height: 150px;
+}
