@@ -19,6 +19,11 @@ header {
   text-align: center;
 }
 
+#header-list li {
+  text-decoration: none;
+  display: inline-block;
+}
+
 .container {
   margin: 25px auto;
 }
@@ -51,4 +56,18 @@ header {
 #submarine {
   background-color: pink;
   height: 150px;
+}
+
+@media screen and (max-width: 767px) {
+
+  #header-list li {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  i.fa-bars {
+    display: none;
+  }
 }
