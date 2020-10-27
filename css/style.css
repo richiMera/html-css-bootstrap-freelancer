@@ -78,7 +78,7 @@ header {
 #main_top {
   color: #2C3E50;
 }
-#main_top .white_line {
+.blue_line {
   background-color: #2C3E50;
 }
 #main_top .separe_icon {
@@ -100,4 +100,15 @@ header {
   background-color: #1ABC9C;
   border: 2px solid white;
   color: white;
+}
+
+.input_brd_blk {
+  display: block;
+  border: 0px;
+}
+
+#send_green {
+  background-color: #1ABC9C;
+  color: white;
+  font-size: 25px;
 }
