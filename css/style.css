@@ -12,6 +12,11 @@ header {
   z-index: 10;
   line-height: 80px;
 }
+#header_top h2 {
+  font-size: 20px;
+  margin: 0;
+  line-height: 80px;
+}
 
 .icon_menu {
   font-size: 20px;
@@ -136,9 +141,19 @@ header {
 }
 
 .input_brd_blk {
+  font-size: 25px;
   display: block;
   border: 0px;
+  color: #495057;
 }
+.input_brd_blk:focus{
+  outline:none;
+}
+textarea {
+  opacity: 0.9;
+}
+
+
 
 #send_green {
   background-color: #1ABC9C;
