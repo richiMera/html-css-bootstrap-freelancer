@@ -68,12 +68,31 @@ header {
 }
 
 .box_image {
+  position: relative;
   background-color: red;
   margin-bottom: 30px;
 }
 .box_image img {
   width: 100%;
   border-radius: 5px;
+}
+.none_plus {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+}
+.box_image:hover img {
+  opacity: 0.1;
+}
+.box_image:hover {
+  background-color:  #1ABC9C;
+}
+.box_image:hover .none_plus {
+  display: inline-block;
 }
 #main_top {
   color: #2C3E50;
@@ -143,6 +162,11 @@ header {
   border: 1px solid white;
   border-radius: 50%;
   margin-left: 5px;
+  color: white;
+}
+.fab:hover {
+  background-color: white;
+  color: #2C3E50;
 }
 
 #footer_top p > span {
